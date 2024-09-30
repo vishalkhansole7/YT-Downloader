@@ -106,7 +106,8 @@ HTML_TEMPLATE = """
 </script>
 <script type="text/javascript" src="//humiliatesmug.com/32c894c8b7c3109ac13f4527145b12e6/invoke.js"></script>
 
-
+<script async="async" data-cfasync="false" src="//humiliatesmug.com/36469c754dfca52f78bbad579a80bb97/invoke.js"></script>
+<div id="container-36469c754dfca52f78bbad579a80bb97"></div>
 <script type="text/javascript">
 	atOptions = {
 		'key' : '32c894c8b7c3109ac13f4527145b12e6',
@@ -160,6 +161,9 @@ HTML_TEMPLATE = """
 	};
 </script>
 <script type="text/javascript" src="//humiliatesmug.com/32c894c8b7c3109ac13f4527145b12e6/invoke.js"></script>
+
+   <script async="async" data-cfasync="false" src="//humiliatesmug.com/36469c754dfca52f78bbad579a80bb97/invoke.js"></script>
+<div id="container-36469c754dfca52f78bbad579a80bb97"></div>
     </p>
 </body>
 </html>
