@@ -84,6 +84,53 @@ HTML_TEMPLATE = """
     </script>
 </head>
 <body>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '32c894c8b7c3109ac13f4527145b12e6',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//humiliatesmug.com/32c894c8b7c3109ac13f4527145b12e6/invoke.js"></script>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '32c894c8b7c3109ac13f4527145b12e6',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//humiliatesmug.com/32c894c8b7c3109ac13f4527145b12e6/invoke.js"></script>
+
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '32c894c8b7c3109ac13f4527145b12e6',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//humiliatesmug.com/32c894c8b7c3109ac13f4527145b12e6/invoke.js"></script>
+
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '32c894c8b7c3109ac13f4527145b12e6',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//humiliatesmug.com/32c894c8b7c3109ac13f4527145b12e6/invoke.js"></script>
+
+
     <h1>VK's YT Downloader</h1>
     <form action="/" method="POST" onsubmit="return validateURL();">
         <input type="text" name="url" id="url" placeholder="Enter YouTube video URL" required>
@@ -92,6 +139,28 @@ HTML_TEMPLATE = """
     {% if error %}
         <p class="error">{{ error }}</p>
     {% endif %}
+    <p>
+    <script type="text/javascript">
+	atOptions = {
+		'key' : '32c894c8b7c3109ac13f4527145b12e6',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//humiliatesmug.com/32c894c8b7c3109ac13f4527145b12e6/invoke.js"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '32c894c8b7c3109ac13f4527145b12e6',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//humiliatesmug.com/32c894c8b7c3109ac13f4527145b12e6/invoke.js"></script>
+    </p>
 </body>
 </html>
 """
