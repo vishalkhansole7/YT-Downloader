@@ -30,17 +30,21 @@ def home():
 
 @app.route('/download', methods=['POST'])
 def download():
-    url = request.form['url']
+    url = request.form['url'].strip()  # Trim any leading/trailing spaces
+    if not url:
+        return "Error: URL cannot be empty.", 400  # Return an error if the URL is empty
     try:
+        print(f"Attempting to download from URL: {url}")  # Debug output
         yt = YouTube(url)
         video = yt.streams.get_highest_resolution()
         video.download()
-        
+
         # File path of the downloaded video
         file_path = video.default_filename
         return send_file(file_path, as_attachment=True)
     except Exception as e:
-        return str(e)
+        print(f"Error occurred: {e}")  # Debug output
+        return str(e), 400  # Return the error message with a 400 status code
 
 if __name__ == '__main__':
     app.run(debug=True)
