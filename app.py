@@ -36,6 +36,11 @@ def download():
     try:
         print(f"Attempting to download from URL: {url}")  # Debug output
         yt = YouTube(url)
+
+        # Check if there are available streams
+        if not yt.streams:
+            return "No streams available for this video.", 400
+
         video = yt.streams.get_highest_resolution()
         video.download()
 
@@ -43,8 +48,9 @@ def download():
         file_path = video.default_filename
         return send_file(file_path, as_attachment=True)
     except Exception as e:
-        print(f"Error occurred: {e}")  # Debug output
-        return str(e), 400  # Return the error message with a 400 status code
+        error_message = str(e)
+        print(f"Error occurred: {error_message}")  # Debug output
+        return f"Error: {error_message}", 400  # Return the error message with a 400 status code
 
 if __name__ == '__main__':
     app.run(debug=True)
